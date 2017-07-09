@@ -8,7 +8,7 @@
         </div>
         <div class="uk-section-small">
             <div class="uk-container uk-container-large">
-                <div uk-grid class="uk-child-width-1-1@s uk-child-width-1-3@m uk-child-width-1-4@xl">
+                <div uk-grid class="uk-child-width-1-1@s uk-child-width-1-3@m uk-child-width-1-3@xl">
                     <div>
                         <div class="uk-card uk-card-default uk-card-body">
                             <span class="statistics-text">{{$t("ss.traffic_total")}}</span><br/>
@@ -38,6 +38,22 @@
                     <div>
                         <div class="uk-card uk-card-default">
                             <div class="uk-card-header">
+                                <span class="uk-margin-small-right" uk-icon="icon: shrink"></span>
+                                {{$t("user-index.connection-info")}}
+                            </div>
+                            <div class="uk-card-body">
+                                <p>{{$t("ss.port")}}: <em>{{$store.state.user.data.port}}</em></p>
+                                <p>{{$t("ss.password")}}: <em>{{$store.state.user.data.passwd}}</em></p>
+                                <p>{{$t("ss.method")}}: <em>{{$store.state.user.data.method}}</em></p>
+                                <p>{{$t("ss.obfs-protocol")}}: <em>{{$store.state.user.data.protocol}}</em></p>
+                                <p>{{$t("ss.obfs-plugin")}}: <em>{{$store.state.user.data.obfs}}</em></p>
+                                <p>{{$t("ss.obfs_param")}}: <em>{{$store.state.user.data.obfs_param}}</em></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-header">
                                 <span class="uk-margin-small-right" uk-icon="icon: check"></span>
                                 {{$t("user-index.checkin")}}
                             </div>
@@ -49,22 +65,6 @@
                                         {{$t("user-index.checkin")}}
                                     </button>
                                 </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-default">
-                            <div class="uk-card-header">
-                                <span class="uk-margin-small-right" uk-icon="icon: shrink"></span>
-                                {{$t("user-index.connection-info")}}
-                            </div>
-                            <div class="uk-card-body">
-                                <p>{{$t("ss.port")}}: <em>{{$store.state.user.data.port}}</em></p>
-                                <p>{{$t("ss.password")}}: <em>{{$store.state.user.data.passwd}}</em></p>
-                                <p>{{$t("ss.method")}}: <em>{{$store.state.user.data.method}}</em></p>
-                                <p>{{$t("ss.obfs-protocol")}}: <em>{{$store.state.user.data.protocol}}</em></p>
-                                <p>{{$t("ss.obfs-plugin")}}: <em>{{$store.state.user.data.obfs}}</em></p>
-                                <p>{{$t("ss.obfs_param")}}: <em>{{$store.state.user.data.obfs_param}}</em></p>
                             </div>
                         </div>
                     </div>

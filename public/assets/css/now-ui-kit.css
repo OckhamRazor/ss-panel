@@ -3205,6 +3205,16 @@ Created using IcoMoon - icomoon.io
   width: 100%;
   height: 100%;
   z-index: -1; }
+.page-header .page-header-image::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.7);
+  z-index:2;
+}
 .page-header footer {
   position: absolute;
   bottom: 0;
@@ -3224,8 +3234,10 @@ Created using IcoMoon - icomoon.io
   color: #FFFFFF;
   width: 100%;
   max-width: 880px; }
+
 .page-header .category, .page-header .description {
-  color: rgba(255, 255, 255, 0.5); }
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8); }
 .page-header.page-header-small {
   height: 60vh;
   max-height: 440px; }

@@ -59,7 +59,7 @@
         <div class="wrapper">
             <div class="page-header clear-filter" filter-color="blue">
                 <div class="page-header-image" data-parallax="true"
-                     style="background-image: url('/assets/img/header.jpg');">
+                     style="background-image: url('/assets/img/cc.jpg');">
                 </div>
                 <router-view></router-view>
             </div>
@@ -70,7 +70,7 @@
                     <nav>
                         <ul>
                             <li>
-                                Made with ♥
+                                为什么不先问问海螺姑娘呢？
                             </li>
                         </ul>
                     </nav>
@@ -98,7 +98,7 @@
         name: 'App',
         data () {
             return {
-                title: 'ss-panel',
+                title: 'ss-now',
                 user: {},
                 year: 2017,
                 version: 4,

@@ -105,3 +105,76 @@ html, body{
         margin-left: 300px;
     }
 }
+
+/* my-theme css.  write by razor in 2017-07. */
+/* header bar */
+.uk-navbar-container .uk-navbar-nav .ion-ios-arrow-down {
+    padding-left: 10px;
+}
+.uk-dropdown {
+    padding: 15px;
+}
+/* side menu bar */
+.uk-nav-header {
+    font-size: 22px;
+}
+.uk-nav>li>a {
+    color: #555;
+    padding: 10px 0;
+}
+.uk-nav>li>a:hover {
+    color: #0f6ecd;
+}
+
+/* main panel */
+.content-padder .uk-section-small:nth-child(2) {
+    min-height: calc(100vh - 214px);
+    padding: 30px 15px;
+}
+
+/* common css */
+.statistics-text {
+    font-size: 24px;
+}
+.statistics-number {
+    font-size: 22px;
+}
+.uk-card-body{
+    padding: 20px;
+}
+.uk-section-small{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media (min-width: 1200px) {
+    .uk-grid {
+        margin-left: 0;
+    }
+    .uk-grid>div:first-child{
+        padding-left: 0;
+    }
+}
+.uk-grid {
+    margin-left: 0;
+}
+.uk-grid>div:first-child {
+    padding-left: 0;
+} 
+@media (min-width: 960px) {
+    .uk-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media (min-width: 640px) {
+    .uk-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.uk-card-body{
+    padding: 20px !important;
+}
+em{
+    color: darkcyan;
+}

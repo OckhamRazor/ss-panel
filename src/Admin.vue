@@ -59,7 +59,7 @@
         name: 'App',
         data () {
             return {
-                title: 'ss-panel',
+                title: 'ss-now',
                 user: {
                 },
             }

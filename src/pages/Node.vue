@@ -8,7 +8,7 @@
         </div>
         <div class="uk-section-small">
             <div class="uk-container uk-container-large">
-                <div uk-grid class="uk-child-width-1-1@s uk-child-width-1-1@m uk-child-width-1-4@xl">
+                <div uk-grid class="uk-child-width-1-1@s uk-child-width-1-1@m uk-child-width-1-2@xl">
                     <div class="uk-card uk-card-default uk-card-body">
                         <ul uk-accordion>
                             <li v-for="node in nodes">
@@ -22,16 +22,20 @@
                                     <blockquote>{{node.info}}</blockquote>
 
                                     <div uk-grid
-                                         class="uk-child-width-1-1@s uk-child-width-1-3@m uk-child-width-1-4@xl">
-                                        <div class="uk-card uk-card-default uk-card-body">
-                                            <VueQr :bgSrc='qrBg' :logoSrc="ssLogo" :text="node.ssQr" height="400"
-                                                   width="400" colorDark="#000000" colorLight="#ffffff"
-                                                   autoColor="true"></VueQr>
+                                         class="uk-child-width-1-1@s uk-child-width-1-3@m uk-child-width-1-3@xl">
+                                        <div class="QRcode-card">
+                                            <div class="uk-card uk-card-default uk-card-body">
+                                                <VueQr :bgSrc='qrBg' :logoSrc="ssLogo" :text="node.ssQr" height="400"
+                                                    width="400" colorDark="#000000" colorLight="#ffffff"
+                                                    autoColor="true"></VueQr>
+                                            </div>
                                         </div>
-                                        <div class="uk-card uk-card-default uk-card-body">
+                                        <div class="QRcode-card">
+                                            <div class="uk-card uk-card-default uk-card-body">
                                             <VueQr :bgSrc='qrBg' :logoSrc="ssrLogo" :text="node.ssrQr" height="400"
-                                                   width="400" colorDark="#000000" colorLight="#ffffff"
-                                                   autoColor="true"></VueQr>
+                                                width="400" colorDark="#000000" colorLight="#ffffff"
+                                                autoColor="true"></VueQr>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
