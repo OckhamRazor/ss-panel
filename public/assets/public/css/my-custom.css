@@ -1,0 +1,68 @@
+/* write by razor on 2017-7. custom style for ss-panel3 */
+/* index.tpl */
+body {
+    background: url(/assets/public/img/cc.jpg) no-repeat !important;
+    min-height: 100vh;
+    background-size: cover !important;
+    position: relative;
+}
+body::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(0,0,0,.6);
+    z-index: -1;
+}
+#index-banner .container {
+    position: relative;
+    z-index: 1;
+    margin-top: 10vh;
+    color: #eee;
+}
+#index-banner {
+    min-height: calc(100vh - 64px);
+}
+
+#index-banner h1.header {
+    color: white !important;
+}
+#index-banner h5.header {
+    color: #aaa;
+    font-size: 20px;
+}
+
+/* nav bar */
+nav .brand-logo, nav ul a {
+    color: #ccc;
+    transition: color 0.2s ease-in-out;
+}
+nav .brand-logo:hover, nav ul a:hover {
+    color: white;
+}
+.top-header {
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+/* common css */
+.form-inline .form-group {
+    padding: 15px;
+}
+.form-group label{
+    padding-right: 10px;
+}
+
+/* regsite page */
+.login-box, .register-box {
+    margin: 0 auto;
+}
+.register-logo, .login-logo {
+    padding-top: 10vh;
+}
+.register-logo a, .login-logo a{ 
+    color: #eee;
+}

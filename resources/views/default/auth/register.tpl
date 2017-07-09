@@ -1,12 +1,12 @@
 {include file='auth/header.tpl'}
-<body class="register-page">
+<body class="register-page banner-body">
 <div class="register-box">
     <div class="register-logo">
         <a href="../"><b>{$config['appName']}</b></a>
     </div>
 
     <div class="register-box-body">
-        <p class="login-box-msg">注册，然后变成一只猫。</p>
+        <p class="login-box-msg">注册，然后变成一只猫</p>
 
         <div class="form-group has-feedback">
             <input type="text" id="name" class="form-control" placeholder="昵称"/>
@@ -65,7 +65,9 @@
         </div>
 
         <a href="/auth/login" class="text-center">已经注册？请登录</a>
+        <br/><em>邮件发送响应较慢大约3分钟，请不要重复点击（注意检查邮件垃圾箱）</em>
     </div><!-- /.form-box -->
+    <p
 </div><!-- /.register-box -->
 
 <!-- jQuery 2.1.3 -->

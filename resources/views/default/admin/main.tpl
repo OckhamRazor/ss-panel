@@ -15,6 +15,7 @@
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
     <link href="/assets/public/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/assets/public/css/my-custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
     <!-- jQuery 2.1.3 -->
     <script src="/assets/public/js/jquery.min.js"></script>

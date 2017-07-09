@@ -25,7 +25,7 @@
                 <div class="box form-inline">
                      <div class="form-group">
                         <label for="labelNode">节点</label>
-                        <select id="search-node">
+                        <select id="search-node" class="form-control">
                             <option value="0">所有节点</option>
                         {foreach $nodes as $node}
                             <option value="{$node->id}" {if $node->id==$seleNode}selected="selected"{/if}>

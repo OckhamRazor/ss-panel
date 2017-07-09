@@ -3,10 +3,9 @@
         {$userFooter}
     </div>
     <div class="pull-right hidden-xs">
-        Made with Love
+        just be a quiet cat. &nbsp;&nbsp;&nbsp;&nbsp;
     </div>
     <strong>Copyright &copy; {date("Y")} <a href="#">{$config['appName']}</a> </strong>
-    All rights reserved. Powered by <b>ss-panel</b> {$config['version']} | <a href="/tos">服务条款 </a>
 </footer>
 </div><!-- ./wrapper -->
 

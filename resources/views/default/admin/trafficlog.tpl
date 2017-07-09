@@ -25,7 +25,7 @@
                 <div class="box form-inline">
                     <div class="form-group">
                         <label for="labelUser">用户</label>
-                        <select id="search-user">
+                        <select id="search-user" class="form-control">
                             <option value="0">所有人</option>
                         {foreach $users as $user}
                             <option value="{$user->id}" {if $user->id==$seleUser}selected="selected"{/if}>
@@ -36,7 +36,7 @@
                     </div>
                     <div class="form-group">
                         <label for="labelNode">节点</label>
-                        <select id="search-node">
+                        <select id="search-node" class="form-control">
                             <option value="0">所有节点</option>
                         {foreach $nodes as $node}
                             <option value="{$node->id}" {if $node->id==$seleNode}selected="selected"{/if}>
